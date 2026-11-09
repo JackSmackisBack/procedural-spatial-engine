@@ -6,11 +6,24 @@ A modular development framework and C++/Python script library designed to interf
 This repository hosts underlying system scripts, procedural data structures, and automation algorithms used for processing vector geography, terrain heightmaps, and runtime asset placement.
 
 ### Key Architecture
-- **Data Pipelines:** Python/C++ integration tools for parsing geospatial coordinates and vector layout nodes.
-- **Procedural Logic:** Dynamic spline math and grid partitioning routines for large-scale environment generation.
-- **Optimization:** Memory management routines, object pooling algorithms, and data structures tailored for high-density runtime environments.
+- Data Pipelines: Python/C++ integration tools for parsing geospatial coordinates and vector layout nodes.
+- Procedural Logic: Dynamic spline math and grid partitioning routines for large-scale environment generation.
+- Optimization: Memory management routines, object pooling algorithms, and data structures tailored for high-density runtime environments.
 
 ## Setup & Prerequisites
 1. Clone the repository:
-   ```bash
-   git clone [https://github.com/JackSmackisBack/procedural-spatial-engine.git](https://github.com/JackSmackisBack/procedural-spatial-engine.git)
+git clone https://github.com/JackSmackisBack/procedural-spatial-engine.git
+
+2. Prerequisites:
+- Python 3.10+
+- CMake / C++ compiler toolchain (GCC, Clang, or MSVC)
+- Git LFS (for large binary data handling)
+
+## Development Roadmap
+- [x] Initial repository structure and build configurations.
+- [ ] Implement vector spatial hashing algorithm for dynamic entity partitioning.
+- [ ] Refactor procedural spline generation modules for optimized thread execution.
+- [ ] Expand automated unit testing suite for coordinate math and matrix operations.
+
+## License
+MIT License - Free and open-source personal software project.
